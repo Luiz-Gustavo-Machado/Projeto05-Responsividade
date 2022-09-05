@@ -79,7 +79,7 @@ main {
   height: 41.6rem;
   object-fit: cover;
 
-  transition: all 200ms;
+  transition: all 500ms;
 }
 
 .card img:hover {
