@@ -113,6 +113,21 @@ main {
   width: fit-content;
 }
 
-@keyframes
+header {
+  animation-name: topdown;
+  animation-duration: 700ms;
+  animation-delay: 800ms;
 
-at-rule
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
