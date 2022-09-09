@@ -33,14 +33,38 @@ body {
   margin: 0 auto;
 }
 
-  @media (min-width: 700px) {
+  @media (min-width: 930px) {
     :root {
       --fs-heading: 5.6rem;
     }
 
     .page {
       max-width: 117rem;
+      padding: 0 5rem;
     }
+
+    main {
+      grid-template-areas: "A B B"
+      "C C D";
+    }
+
+    main div:nth-child(1) {
+      grid-area: A;
+    }
+    main div:nth-child(2) {
+      grid-area: B;
+    }
+    main div:nth-child(3) {
+      grid-area: C;
+    }
+    main div:nth-child(4) {
+      grid-area: D;
+    }
+
+  }
+
+  @media (min-width: 700px) {
+    
   }
 
 img {
