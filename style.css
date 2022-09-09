@@ -16,8 +16,8 @@
 
   font-size: 62,5%;
   --fs-body: 1.6rem;
-  --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
-  --fs-heading-sm: clamp(3rem, 0.5rem + 4vw, 4rem)
+  --fs-heading: clamp(3rem, 1rem + 5vw, 5rem);
+  --fs-heading-sm: clamp(2rem, 0.5rem + 3vw, 2.5rem)
 }
 
 body {
@@ -126,7 +126,7 @@ main {
   align-items: center;
   
   width: fit-content;
-  height: 3.8rem;
+  height: 3.1rem;
 }
 
 
