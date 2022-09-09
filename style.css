@@ -33,6 +33,16 @@ body {
   margin: 0 auto;
 }
 
+  @media (min-width: 700px) {
+    :root {
+      --fs-heading: 5.6rem;
+    }
+
+    .page {
+      max-width: 117rem;
+    }
+  }
+
 img {
   width: 100%;
   height: auto;
@@ -45,6 +55,10 @@ header {
   font-family: var(--ff-heading);
 
   text-align: center;
+
+  animation-name: topdown;
+  animation-duration: 1s;
+  animation-delay: 600ms;
 }
 
 header p {
@@ -68,6 +82,10 @@ header h1 {
 main {
   display: grid;
   gap: 3.2rem;
+
+  animation: downtop 700ms 350ms backwards;
+    /*animation: transição - dalay - animação reverso*/
+
 }
 
 .card {
@@ -91,7 +109,8 @@ main {
   position: absolute;
   bottom: 5.2rem;
   left: 2.8rem;
-  font-size: var(--fs-heading);
+  
+  font-size: 4rem;
   font-weight: 800;
 
   display: flex;
@@ -113,16 +132,6 @@ main {
   width: fit-content;
 }
 
-header {
-  animation-name: topdown;
-  animation-duration: 1s;
-  animation-delay: 600ms;
-}
-
-main {
-  animation: downtop 700ms 350ms backwards;
-  /*animation: transição - dalay - animação reverso*/
-}
 
 @keyframes topdown {
   0% {
