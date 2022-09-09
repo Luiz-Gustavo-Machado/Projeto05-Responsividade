@@ -16,7 +16,7 @@
 
   font-size: 62,5%;
   --fs-body: 1.6rem;
-  --fs-heading: 4rem;
+  --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
 }
 
 body {
@@ -89,6 +89,8 @@ main {
   border-radius: 8px;
   
   transition: all 500ms;
+
+  filter: brightness(0.6);
 }
 
 .card img:hover {
@@ -148,16 +150,18 @@ main {
     transform: translateY(0);
   }
 }
-
-@media (min-width: 1100px) {
-  :root {
-    --fs-heading: 5.6rem;
-  }
-  
+@media (min-width: 1138px) {
   .page {
     max-width: 117rem;
     padding: 0 5rem;
   }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1650px) {
   
   main {
     grid-template-areas: "A B B"
