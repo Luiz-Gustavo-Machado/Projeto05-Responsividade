@@ -1,4 +1,4 @@
-<h1>Projeto05-Responsividade</h1>
+## Projeto05-Responsividade</h1>
 
 
 > Aprendizados proposto no stage 3 última fase do Explore Rocketseat, variáveis e cores HSL no CSS, transições e transformações, Animações com CSS, Versão desktop com CSS Grid, adicionando filtros em imagens com CSS e ajustando texto com CSS clamp, Mobile First e Grid com Animações
