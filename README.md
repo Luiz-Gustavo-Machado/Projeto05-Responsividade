@@ -1,18 +1,44 @@
-## Projeto05-Responsividade</h1>
 
+<p align="center">
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-> Aprendizados proposto no stage 3 última fase do Explore Rocketseat, variáveis e cores HSL no CSS, transições e transformações, Animações com CSS, Versão desktop com CSS Grid, adicionando filtros em imagens com CSS e ajustando texto com CSS clamp, Mobile First e Grid com Animações
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### Stack utilizado
+---
 
-#### Front-end: HTML & CSS
+### 🔖 Layout Space Cream
 
-Deploy:  <a href="https://gridresponsividade.netlify.app/" target="_blank">Vizualize a pagina aqui</a>
+Você pode visualizar o layout do projeto através 🔗 [desse link](https://gridresponsividade.netlify.app/).
 
-## Imagem de referência
- 
 ![image](https://user-images.githubusercontent.com/108701750/189451347-73444504-cc39-46b9-a150-8cceb4619200.png)
 
+#
+
+### 🚀 Tecnologias
+
+> Esse projeto desenvolvido proposto no stage 3 do Explore da Rocketseat com as seguintes tecnologias: 
+
+- HTML
+- CSS
+
+#
+
+### 💻 Projeto
+
+> Aprendizados com variáveis e cores HSL no CSS, transições e transformações, Animações com CSS, Versão desktop com CSS Grid, adicionando filtros em imagens com CSS e ajustando texto com CSS clamp, Mobile First e Grid com Animações.
+
+#
+
+### :memo: Licença
+
+> Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 
